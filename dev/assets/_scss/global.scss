@@ -1,0 +1,111 @@
+/****************** GLOBAL *********************/
+$font: 'DM Mono', monospace;
+$headerfont: 'DM Sans', sans-serif;
+
+
+// color palette
+$black: #000;
+$white: #fff;
+$gray: #9A9A9A;
+
+
+
+// spacing & containers
+$sectionPadding: 96px;
+$sectionPadding-medium: 60px;
+$sectionPadding-small: 30px;
+$sectionPaddingTop: 130px;
+$sectionPaddingTop-medium: 65px;
+$sectionPaddingTop-small: 30px;
+
+/*-----------------------------------*\
+	MEDIA QUERIES IN CORRECT ORDER
+\*-----------------------------------*/
+$mobile-small-BP: 400px;
+$mobile-BP: 640px;
+$tablet-BP: 768px;
+$desktop-BP: 1024px;
+$desktop-big-BP: 1200px;
+
+
+/*-----------------------------------*\
+	UNIVERSAL
+\*-----------------------------------*/
+html {
+	box-sizing: border-box;
+	// background: ;
+	font-size: 16px;
+	font-family: $font;
+	line-height: 1.1;
+    scroll-behavior: smooth;
+    
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+	color: $black;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+/*-----------------------------------*\
+	SKIP NAV
+\*-----------------------------------*/
+#skip-to-content {
+	position: absolute;
+	top: 0px;
+	left: 0;
+	transform: translateY(-800%);
+	z-index: 999999;
+	transition: all .35s linear;
+	// background-color: var(--Mint);
+	// color: var(--Black);
+	padding: .5em 1em;
+	text-decoration: none;
+
+	&:focus {
+		transform: translateY(0);
+	}
+}
+
+/*-----------------------------------*\
+	SECTION
+\*-----------------------------------*/
+
+header, section {
+	padding: 0 2em;
+
+	@media(min-width: $tablet-BP) {
+		padding: 0 4em;
+	}
+
+	&>div {
+		padding: 4em 0;
+		max-width: 1000px;
+        margin: 0 auto;
+
+		@media(min-width: $tablet-BP) {
+			padding: 4em 2em;
+        }
+    }
+}
+
+
+/*-----------------------------------*\
+	LIST
+\*-----------------------------------*/
+
+ol,ul{
+	margin: 0;
+	li{
+		padding-left: 0.8em;
+		margin-left: -0.8em;
+	}
+}
+

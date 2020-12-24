@@ -1,0 +1,8 @@
+baseUrl: $PRIMARY_SITE_URL
+handle: default
+hasUrls: true
+language: en-US
+name: 'Anuar Reyes'
+primary: true
+siteGroup: cfa2dbc4-0f72-427a-b9ce-6ad4f829f061
+sortOrder: 1

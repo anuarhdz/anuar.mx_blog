@@ -1,0 +1,17 @@
+dateModified: 1608789190
+email:
+  fromEmail: anuarhdz@gmail.com
+  fromName: 'Anuar Reyes'
+  transportType: craft\mail\transportadapters\Sendmail
+system:
+  edition: solo
+  live: true
+  name: 'Anuar Reyes'
+  schemaVersion: 3.5.13
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true
