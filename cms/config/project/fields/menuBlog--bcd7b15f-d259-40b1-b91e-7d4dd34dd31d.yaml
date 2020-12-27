@@ -1,0 +1,14 @@
+contentColumnType: string
+fieldGroup: 89e96ba2-3a8a-4bd6-91c6-1e2d58d07def
+handle: menuBlog
+instructions: ''
+name: 'Menu Blog'
+searchable: false
+settings:
+  contentTable: '{{%matrixcontent_menublog}}'
+  maxBlocks: '5'
+  minBlocks: '1'
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

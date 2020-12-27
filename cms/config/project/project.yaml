@@ -1,8 +1,13 @@
-dateModified: 1609036839
+dateModified: 1609109073
 email:
   fromEmail: anuarhdz@gmail.com
   fromName: 'Anuar Reyes'
   transportType: craft\mail\transportadapters\Sendmail
+plugins:
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
 system:
   edition: solo
   live: true

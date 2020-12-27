@@ -26,10 +26,13 @@
 	<script {%if siteUrl %} src="{{ siteUrl }}assets/js/scripts/vendor/modernizr-custom.js" {% else %} src="../web/assets/js/scripts/vendor/modernizr-custom.js"{% endif %}></script>
 </head>
 <body>
-	{% include 'navigation/main-header.html' %}
-	{% block content %}
-	{% endblock %}
-	{% include 'navigation/main-footer.html' %}
+	{% include '/navigation/main-header.html' %}
+	<main id="main-content" class="main-content">
+		{% block content %}
+		{% endblock %}
+		{% include '/sections/newsletter.html' %}
+	</main>
+	{% include '/navigation/main-footer.html' %}
 
     
 	<script {%if siteUrl %} src="{{ siteUrl }}assets/js/main.js" {% else %} src="../web/assets/js/main.js"{% endif %}></script>

@@ -1,0 +1,27 @@
+contentColumnType: text
+fieldGroup: 89e96ba2-3a8a-4bd6-91c6-1e2d58d07def
+handle: newsletterDescription
+instructions: ''
+name: 'Newsletter Description'
+searchable: false
+settings:
+  availableTransforms: '*'
+  availableVolumes: '*'
+  cleanupHtml: true
+  columnType: text
+  configSelectionMode: manual
+  defaultTransform: ''
+  manualConfig: "{\r\n    \"buttons\": [\"code\"],\r\n    \"breakline\": true,\r\n    \"deniedTags\": [\"p\"],\r\n    \"enterKey\": true,\r\n    \"paragraphize\": false\r\n}"
+  purifierConfig: ''
+  purifyHtml: '1'
+  redactorConfig: ''
+  removeEmptyTags: '1'
+  removeInlineStyles: '1'
+  removeNbsp: '1'
+  showHtmlButtonForNonAdmins: ''
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: false
+  uiMode: enlarged
+translationKeyFormat: null
+translationMethod: none
+type: craft\redactor\Field

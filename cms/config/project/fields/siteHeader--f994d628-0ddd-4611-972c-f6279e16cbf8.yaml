@@ -1,17 +1,17 @@
-contentColumnType: string(120)
-fieldGroup: 5a92ed28-fddb-4c98-9f3e-d44f88687438
+contentColumnType: text
+fieldGroup: 89e96ba2-3a8a-4bd6-91c6-1e2d58d07def
 handle: siteHeader
-instructions: 'Escribe el header o titulo del sitio'
+instructions: ''
 name: 'Site Header'
 searchable: false
 settings:
   byteLimit: null
-  charLimit: 30
+  charLimit: null
   code: ''
   columnType: null
   initialRows: '4'
   multiline: ''
-  placeholder: 'Titulo del sitio'
+  placeholder: ''
   uiMode: normal
 translationKeyFormat: null
 translationMethod: none

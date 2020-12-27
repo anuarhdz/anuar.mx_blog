@@ -1,8 +1,8 @@
 contentColumnType: text
-fieldGroup: 5a92ed28-fddb-4c98-9f3e-d44f88687438
-handle: newsletterDescription
+fieldGroup: 89e96ba2-3a8a-4bd6-91c6-1e2d58d07def
+handle: newsletterTitle
 instructions: ''
-name: 'Descripción del newsletter'
+name: 'Newsletter Title'
 searchable: false
 settings:
   byteLimit: null

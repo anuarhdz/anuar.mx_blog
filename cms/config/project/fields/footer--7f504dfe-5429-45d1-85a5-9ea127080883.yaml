@@ -1,17 +1,17 @@
-contentColumnType: string(280)
-fieldGroup: 5a92ed28-fddb-4c98-9f3e-d44f88687438
+contentColumnType: text
+fieldGroup: 89e96ba2-3a8a-4bd6-91c6-1e2d58d07def
 handle: footer
-instructions: 'Escribe el texto para el footer'
+instructions: ''
 name: 'Créditos del footer'
 searchable: false
 settings:
   byteLimit: null
-  charLimit: 70
+  charLimit: null
   code: ''
   columnType: null
   initialRows: '4'
   multiline: ''
-  placeholder: 'Escribe el texto para tu footer'
+  placeholder: ''
   uiMode: normal
 translationKeyFormat: null
 translationMethod: none
