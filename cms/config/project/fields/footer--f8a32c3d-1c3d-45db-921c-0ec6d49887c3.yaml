@@ -1,0 +1,18 @@
+contentColumnType: string(280)
+fieldGroup: 5a92ed28-fddb-4c98-9f3e-d44f88687438
+handle: footer
+instructions: 'Escribe el texto para el footer'
+name: 'Créditos del footer'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: 70
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: ''
+  placeholder: 'Escribe el texto para tu footer'
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

@@ -1,0 +1,44 @@
+section.newsletter{
+    background: $black;
+    color: $white;
+
+    h2{
+        font-size: 24px;
+    }
+
+    h2, p{
+        margin-top: 0;
+        text-align: center;
+    }
+
+    label{
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+        .button, .email{
+            font-size: 16px;
+            padding: 10px 20px;
+            background: $black;
+            border: 1px solid $white;
+            color: $white;
+            transition: all .3s ease-out;
+        }
+        .email{
+            min-width: 300px;
+            font-family: $font;
+            height: 100%;
+            border-right: none;
+            &:focus{
+                outline: none;
+            }
+        }
+        .button{
+            margin: 0;
+            &:hover{
+                background: $white;
+                color: $black;
+                transition: all .3s ease-out;
+            }
+        }
+    }
+}

@@ -1,0 +1,18 @@
+contentColumnType: string(120)
+fieldGroup: 5a92ed28-fddb-4c98-9f3e-d44f88687438
+handle: siteHeader
+instructions: 'Escribe el header o titulo del sitio'
+name: 'Site Header'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: 30
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: ''
+  placeholder: 'Titulo del sitio'
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

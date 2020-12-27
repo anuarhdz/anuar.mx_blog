@@ -1,0 +1,24 @@
+article.post-card{
+    margin-bottom: 50px;
+    a:not(last-child){text-decoration: none;}
+    h2, p{
+		margin-top: 0;
+    }
+    p:nth-child(2){
+        margin: 0;
+    }
+    p:nth-child(2), p:nth-child(3), a{
+        font-size: 13px;
+    }
+    p{
+        span{
+            font-weight: 500;
+        }
+    }
+}
+
+section.posts-grid.grid{
+    article.post-card{
+        width: 45%;
+    }
+}

@@ -14,9 +14,12 @@
 @import 'fragments/typography.scss';
 @import 'fragments/forms.scss';
 @import 'fragments/buttons.scss';
+@import 'fragments/post-card.scss';
 
 // navigation
 @import 'navigation/main-nav.scss';
 @import 'navigation/main-footer.scss';
 
 //section
+@import 'sections/posts-grid.scss';
+@import 'sections/newsletter.scss';
