@@ -1,0 +1,66 @@
+section.about-me{
+    .media {
+        .photo{
+            img{
+                max-width: 100%;
+                width: 100%;
+                border-radius: 50%;
+            }
+        }
+    }
+    .info{
+        h2, h3{
+            margin-top: 0;
+            margin-bottom: 20px;
+        }
+        .name{
+            font-size: 16px;
+            font-family: $headerfont;
+        }
+
+        ul{
+            list-style: none;
+            padding: 0;
+            margin-bottom: 25px;
+            li{
+                padding: 20px 0;
+                margin: 0;
+                border-bottom: 3px solid $black;
+                h3{
+                    margin: 0;
+                    font-size: 18px;
+                }
+            }
+        }
+
+        .work{
+            padding: 20px;
+            background-color: $black;
+            color: $white;
+            display: inline-block;
+            text-decoration: none;
+        }
+
+
+    }
+
+    @media screen and (min-width: $tablet-BP){
+        &>div{
+            display: flex;
+            justify-content: space-between;
+            .info{
+                width: 50%;
+                padding-top: 50px;
+            }
+
+            .media {
+                width: 40%;
+                .photo {
+                    img{
+
+                    }
+                }
+            }
+        }
+    }
+}
