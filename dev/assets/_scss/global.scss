@@ -86,14 +86,20 @@ header, section, footer {
 	}
 
 	&>div {
-		padding: 4em 0;
+		padding: 0 0 4em;
 		max-width: 1000px;
         margin: 0 auto;
 
 		@media(min-width: $tablet-BP) {
-			padding: 4em 2em;
+			padding: 0 2em 4em;
         }
     }
+}
+
+header{
+	&>div {
+		padding-top: 4em;
+	}
 }
 
 

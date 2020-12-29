@@ -3,6 +3,9 @@ div.share-icons{
     padding: 20px;
     width: 100%;
     margin-top: 100px;
+    @media screen and (min-width: $tablet-BP){
+        width: 350px;
+    }
     nav{
         display: flex;
         justify-content: space-around;
