@@ -1,0 +1,19 @@
+div.share-icons{
+    background: $black;
+    padding: 20px;
+    width: 100%;
+    margin-top: 100px;
+    nav{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        a {
+            display: block;
+            //margin-right: 30px;
+            img{
+                width: 25px;
+                height: 25px;
+            }
+        }
+    }
+}

@@ -5,10 +5,41 @@ section.article-content{
         h2, h5{
             margin-top: 0;
         }
+        h2{
+            margin-bottom: 50px;
+        }
+        .info{
+            padding: 30px;
+            background-color: $black;
+            color: $white;
+            display: flex;
+            flex-wrap: wrap;
+
+
+            h5{
+                font-weight: 300;
+                margin-bottom: 30px;
+            }
+            span{
+                display: flex;
+                align-items: baseline;
+                margin-right: 30px;
+                img {
+                    width: 15px;
+                    height: 15px;
+                    margin-right: 10px;
+                }
+                a{
+                    color: $white;
+                    text-decoration: none;
+                }
+            }
+        }
+        
     }
 
     figure{
-        margin: 0;
+        margin: 50px 0;
 
         img{
             width: 100%;
