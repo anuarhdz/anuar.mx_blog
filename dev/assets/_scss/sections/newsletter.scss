@@ -26,6 +26,9 @@ section.newsletter{
             border: 1px solid $white;
             color: $white;
             transition: all .3s ease-out;
+            appearance: none;
+            margin: 0;
+            border-radius: 0;
 
             @media screen and (min-width: $tablet-BP){
                 font-size: 16px;
