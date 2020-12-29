@@ -1,4 +1,4 @@
-
+<!-- query para acceder a valor de matrix -->
 {% set menuItems = siteInfo.menuBlog.all() %}
 
 <header>
@@ -8,7 +8,7 @@
         {% if menuItems|length > 0 %}
         <nav>
             {% for menuItem in menuItems %}
-                <a href="{{ menuItem.menuItemLink }}">{{ menuItem.menuItemName }}</a>
+                <a href="{{ menuItem.menuItemLink }}">{{ menuItem.menuItemText }}</a>
             {% endfor %}
         </nav>
         {% endif %}

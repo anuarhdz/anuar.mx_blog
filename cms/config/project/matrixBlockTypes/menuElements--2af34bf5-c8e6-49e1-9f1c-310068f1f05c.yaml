@@ -41,9 +41,9 @@ fields:
   8bd28df4-c540-4ea6-b68a-3950dbb0f226:
     contentColumnType: text
     fieldGroup: null
-    handle: menuItemName
+    handle: menuItemText
     instructions: ''
-    name: 'Menu Item Name'
+    name: 'Menu Item Text'
     searchable: false
     settings:
       byteLimit: null

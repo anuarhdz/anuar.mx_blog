@@ -1,0 +1,7 @@
+{
+    "buttons": ["code"],
+    "breakline": true,
+    "deniedTags": ["p"],
+    "enterKey": true,
+    "paragraphize": false
+}
