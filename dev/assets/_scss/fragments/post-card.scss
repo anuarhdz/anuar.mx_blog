@@ -1,6 +1,6 @@
 article.post-card{
     margin-bottom: 50px;
-    a:not(last-child){text-decoration: none;}
+    a:first-of-type {text-decoration: none;}
     h2, p{
 		margin-top: 0;
     }
@@ -19,6 +19,8 @@ article.post-card{
 
 section.posts-grid.grid{
     article.post-card{
-        width: 45%;
+        @media screen and (min-width: $tablet-BP){
+            width: 45%;
+        }
     }
 }
