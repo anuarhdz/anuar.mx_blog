@@ -1,0 +1,32 @@
+contentColumnType: string
+fieldGroup: 92488251-a1ab-4094-aece-f065a2f2c32c
+handle: profilePicture
+instructions: ''
+name: 'Foto de perfil'
+searchable: false
+settings:
+  allowSelfRelations: false
+  allowUploads: true
+  allowedKinds:
+    - image
+  defaultUploadLocationSource: 'volume:faad0dbf-7609-4474-b48a-67f997f65d76'
+  defaultUploadLocationSubpath: ''
+  limit: '1'
+  localizeRelations: false
+  previewMode: full
+  restrictFiles: '1'
+  selectionLabel: ''
+  showSiteMenu: true
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: false
+  singleUploadLocationSource: 'volume:faad0dbf-7609-4474-b48a-67f997f65d76'
+  singleUploadLocationSubpath: ''
+  source: null
+  sources: '*'
+  targetSiteId: null
+  useSingleFolder: true
+  validateRelatedElements: false
+  viewMode: list
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Assets

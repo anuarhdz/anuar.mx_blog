@@ -1,19 +1,20 @@
+{% set authorPhoto = siteAuthor.profilePicture.one().url() %}
 <div class="author">
     <div class="photo">
-        <img src="../../assets/img/photo.jpg" alt="">
+        <img src="{{ authorPhoto }}" alt="">
     </div>
     <div class="bio">
         <a href="#"><h3>Sobre mí</h3></a>
-        <p>Duis tincidunt vel ante vel ornare. Aenean volutpat tincidunt erat, vitae sollicitudin turpis gravida at. Quisque finibus ullamcorper dolor, nec eleifend dui sagittis in. Aliquam tincidunt ante vel luctus hendrerit. Etiam accumsan eros id dolor euismod maximus.</p>
+        <p>{{ siteAuthor.authorBio }}</p>
     </div>
     <div class="social">
-        <a href="#" target="_blank">
+        <a href="{{ siteAuthor.instagramAuthor }}" target="_blank">
             <img src="../../assets/img/ig.svg" alt="">
         </a>
-        <a href="#" target="_blank">
+        <a href="{{ siteAuthor.linkedinAuthor }}" target="_blank">
             <img src="../../assets/img/in-black.svg" alt="">
         </a>
-        <a href="#" target="_blank">
+        <a href="{{ siteAuthor.githubAuthor }}" target="_blank">
             <img src="../../assets/img/github.svg" alt="">
         </a>
     </div>

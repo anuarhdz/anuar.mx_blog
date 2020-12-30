@@ -1,0 +1,62 @@
+fieldLayouts:
+  ccc6a3e8-066a-4ef1-ba53-80882a62e8ef:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 8920d61d-62cb-430b-8ff1-8bf952046b05
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            type: craft\fieldlayoutelements\HorizontalRule
+          -
+            fieldUid: 4fe3ee3e-a4ab-44f4-8ceb-76fed960b422
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            type: craft\fieldlayoutelements\HorizontalRule
+          -
+            fieldUid: 11f285e6-92bd-4bde-bf87-1166b12d5b45
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            type: craft\fieldlayoutelements\HorizontalRule
+          -
+            fieldUid: 4d5b9bb1-c53c-4b55-955d-79d6e54676a2
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            type: craft\fieldlayoutelements\HorizontalRule
+          -
+            fieldUid: f9d161fa-6095-4921-9c4c-e82daeea64e1
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: 'Tab 1'
+        sortOrder: 1
+handle: siteAuthor
+name: 'Información del autor'

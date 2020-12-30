@@ -1,0 +1,12 @@
+contentColumnType: string(255)
+fieldGroup: 89e96ba2-3a8a-4bd6-91c6-1e2d58d07def
+handle: instagramAuthor
+instructions: ''
+name: 'Perfil de Instagram del autor'
+searchable: false
+settings:
+  maxLength: '255'
+  placeholder: ''
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Url

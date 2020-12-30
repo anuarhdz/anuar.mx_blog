@@ -1,17 +1,8 @@
 fieldLayouts:
-  61107288-0549-4204-8f27-2f57573cae25:
+  1efaec29-b360-4fb6-81c0-100c05aaf04d:
     tabs:
       -
         elements:
-          -
-            fieldUid: bafdca7e-f371-4ca4-82a0-1ddfaac6d670
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            warning: null
-            width: 100
           -
             autocapitalize: true
             autocomplete: false
@@ -32,16 +23,16 @@ fieldLayouts:
             step: null
             tip: null
             title: null
-            type: craft\fieldlayoutelements\EntryTitleField
+            type: craft\fieldlayoutelements\TitleField
             warning: null
             width: 100
         name: Content
         sortOrder: 1
-handle: aboutMe
-hasTitleField: false
-name: 'Sobre mi'
-section: 0f3701c1-3eb3-48ad-8abb-20e7acab4406
+handle: siteauthor
+hasUrls: true
+name: siteAuthor
+settings:
+  path: '@mediaBasePath/siteauthor'
 sortOrder: 1
-titleFormat: '{section.name|raw}'
-titleTranslationKeyFormat: null
-titleTranslationMethod: site
+type: craft\volumes\Local
+url: '@mediaBaseUrl/siteauthor'
