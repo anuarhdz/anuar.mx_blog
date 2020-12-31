@@ -48,10 +48,22 @@ section.newsletter{
         }
         .button{
             margin: 0;
+            position: relative;
             &:hover{
-                background: $white;
-                color: $black;
-                transition: all .3s ease-out;
+                //background: $white;
+                //transition: background 1s ease 1s, transform 1s ease 1s;
+                //color: $black;
+                //transition: all .3s ease-out;
+
+                &::before {
+                    top: 0;
+                    right: 0;
+                    left: 0;
+                    bottom: 0;
+                    height: 100%;
+                    width: 100%;
+                    position: absolute;
+                }
             }
         }
     }

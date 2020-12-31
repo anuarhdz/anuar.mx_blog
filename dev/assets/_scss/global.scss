@@ -93,7 +93,17 @@ header, section, footer {
 		@media(min-width: $tablet-BP) {
 			padding: 0 2em 4em;
         }
-    }
+	}
+	
+	// &.fullwidth-background{
+	// 	padding: 0;
+	// 	&>div{
+	// 		padding: 0;
+	// 		@media(min-width: $tablet-BP) {
+	// 			padding: 0;
+	// 		}
+	// 	}
+	// }
 }
 
 header{

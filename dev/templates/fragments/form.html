@@ -1,0 +1,23 @@
+<div class="form">
+    <form action="#">
+        <label for="name">
+            <input type="text" name="name" id="name" placeholder="Tu nombre *"  required>
+        </label>
+        <label for="email">
+            <input type="email" name="email" id="email" placeholder="Tu correo electrónico *"  required>
+        </label>
+        <label for="subject">
+            <select name="subject" id="subject" required>
+                <option value="0" selected disabled>Motivo de contacto</option>
+                <option value="projecto">Quiero contarte sobre un proyecto</option>
+                <option value="mentoria">Necesito un mentor o consejo profesional</option>
+                <option value="oferta-empleo">Quiero enviarte una oferta de empleo</option>
+                <option value="otro">Otro</option>
+            </select>
+        </label>
+        <label for="mensaje">
+            <textarea name="mensaje" id="mensaje" placeholder="Exprésate con libertad" required></textarea>
+        </label>
+        <input type="submit" value="Enviar">
+    </form>
+</div>
