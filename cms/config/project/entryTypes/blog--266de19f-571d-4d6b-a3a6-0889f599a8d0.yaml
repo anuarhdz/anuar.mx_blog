@@ -4,15 +4,6 @@ fieldLayouts:
       -
         elements:
           -
-            fieldUid: 5be3e288-937d-4c84-bc8c-ff199698f48f
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            warning: null
-            width: 100
-          -
             autocapitalize: true
             autocomplete: false
             autocorrect: true
@@ -39,7 +30,7 @@ fieldLayouts:
         sortOrder: 1
 handle: blog
 hasTitleField: false
-name: blog
+name: Blog
 section: 3ce7f791-2895-4d2f-9db0-05026d7c2c93
 sortOrder: 1
 titleFormat: '{section.name|raw}'

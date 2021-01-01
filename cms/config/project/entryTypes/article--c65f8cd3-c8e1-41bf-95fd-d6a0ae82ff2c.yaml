@@ -28,9 +28,9 @@ fieldLayouts:
             width: 100
         name: Content
         sortOrder: 1
-handle: blogArticle
+handle: article
 hasTitleField: true
-name: 'blog article'
+name: Articulo
 section: e24e5e8f-a604-4501-83b5-f3d1d5bffcc5
 sortOrder: 1
 titleFormat: null

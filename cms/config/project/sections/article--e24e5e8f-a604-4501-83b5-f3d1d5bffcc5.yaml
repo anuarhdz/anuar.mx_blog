@@ -1,6 +1,6 @@
 enableVersioning: true
-handle: blogArticle
-name: 'blog article'
+handle: article
+name: Articulo
 propagationMethod: all
 siteSettings:
   97f57858-b416-4aac-877d-78bebb1bdbe6:
