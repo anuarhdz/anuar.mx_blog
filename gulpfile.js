@@ -19,7 +19,7 @@
 
   //global variables
 
-  var vHost = 'anuar.test';
+  var vHost = 'theblog.test';
 
 //*************************************
 
