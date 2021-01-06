@@ -36,7 +36,7 @@
             </select>
         </label>
         <label for="mensaje">
-            <textarea id="message" name="message" placeholder="Exprésate con libertad...">{{ message.message ?? '' }}</textarea>
+            <textarea id="message" name="message[body]" placeholder="Exprésate con libertad...">{{ message.message ?? '' }}</textarea>
             {{ message is defined and message ? errorList(message.getErrors('message')) }}
         </label>
 
