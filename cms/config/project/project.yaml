@@ -1,9 +1,29 @@
-dateModified: 1609530788
+dateModified: 1609898251
 email:
-  fromEmail: anuarhdz@gmail.com
+  fromEmail: hi@anuar.mx
   fromName: 'Anuar Reyes'
-  transportType: craft\mail\transportadapters\Sendmail
+  replyToEmail: null
+  template: null
+  transportSettings:
+    encryptionMethod: ssl
+    host: premium15.web-hosting.com
+    password: 'bam6*s!Aagq$'
+    port: '465'
+    timeout: '10'
+    useAuthentication: '1'
+    username: hi@anuar.mx
+  transportType: craft\mail\transportadapters\Smtp
 plugins:
+  contact-form:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+    settings:
+      allowAttachments: ''
+      prependSender: 'Consulta de: '
+      prependSubject: 'Nuevo mensaje desde The Blog'
+      successFlashMessage: 'Tu mensaje ha sido enviado con éxito'
+      toEmail: hi@anuar.mx
   redactor:
     edition: standard
     enabled: true

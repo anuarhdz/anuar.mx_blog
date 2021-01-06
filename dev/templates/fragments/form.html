@@ -1,23 +1,56 @@
 <div class="form">
-    <form action="#">
-        <label for="name">
-            <input type="text" name="name" id="name" placeholder="Tu nombre *"  required>
+
+    {% macro errorList(errors) %}
+    {% if errors %}
+        <ul class="errors">
+            {% for error in errors %}
+                <li>{{ error }}</li>
+                {% endfor %}
+            </ul>
+        {% endif %}
+    {% endmacro %}
+
+    {% from _self import errorList %}
+
+    <form method="post" action="" accept-charset="UTF-8">
+        {{ csrfInput() }}
+        <input type="hidden" name="action" value="contact-form/send">
+        {{ redirectInput('contacto/thanks') }}
+
+        <label for="from-name">
+            <input type="text" id="from-name" name="fromName" value="{{ message.fromName ?? '' }}" placeholder="Tu nombre *"  required>
+            {{ message is defined and message ? errorList(message.getErrors('fromName')) }}
         </label>
-        <label for="email">
-            <input type="email" name="email" id="email" placeholder="Tu correo electrónico *"  required>
+        
+        <label for="from-email">
+            <input id="from-email" placeholder="Tu correo *" type="email" name="fromEmail" value="{{ message.fromEmail ?? '' }}">
+            {{ message is defined and message ? errorList(message.getErrors('fromEmail')) }}
         </label>
         <label for="subject">
-            <select name="subject" id="subject" required>
-                <option value="0" selected disabled>Motivo de contacto</option>
-                <option value="projecto">Quiero contarte sobre un proyecto</option>
+            <select name="message[subject]">
+                <option value="——" selected disabled>Motivo de contacto</option>
+                <option value="proyecto">Quiero contarte sobre un proyecto</option>
                 <option value="mentoria">Necesito un mentor o consejo profesional</option>
                 <option value="oferta-empleo">Quiero enviarte una oferta de empleo</option>
                 <option value="otro">Otro</option>
             </select>
         </label>
         <label for="mensaje">
-            <textarea name="mensaje" id="mensaje" placeholder="Exprésate con libertad" required></textarea>
+            <textarea id="message" name="message" placeholder="Exprésate con libertad...">{{ message.message ?? '' }}</textarea>
+            {{ message is defined and message ? errorList(message.getErrors('message')) }}
         </label>
-        <input type="submit" value="Enviar">
+
+
+
+        <!-- <input type="submit" value="Enviar"> -->
+        <button type="submit" value="Send">Enviar</button>
+
+        <div class="flash">
+            {% if craft.app.session.hasFlash('notice') %}
+                <p class="message notice">{{ craft.app.session.getFlash('notice') }}</p>
+            {% elseif craft.app.session.hasFlash('error') %}
+                <p class="message error">{{ craft.app.session.getFlash('error') }}</p>
+            {% endif %}
+        </div>
     </form>
 </div>

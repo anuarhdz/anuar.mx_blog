@@ -1,0 +1,11 @@
+enableVersioning: true
+handle: thankYou
+name: 'Thank You Page'
+propagationMethod: all
+siteSettings:
+  97f57858-b416-4aac-877d-78bebb1bdbe6:
+    enabledByDefault: true
+    hasUrls: true
+    template: templates/thanks
+    uriFormat: contacto/thanks
+type: single
